@@ -189,11 +189,11 @@ button {
     background: white;
     border: 2px solid black;
     border-radius: 8px;
-    height: 35px;
+    height: 37.5px;
     width: 125px;
     font-weight: 500;
     font-size: 15px;
-    margin: 2.5% 0 2.5% 0;
+    margin: 5% 0 2.5% 0;
 
 }
 
@@ -217,18 +217,6 @@ button {
     
 }
 
-.first-content {
-    
-}
-
-.first-content h2 {
-    
-}
-
-.third-content {
-
-}
-
 .layer3{
     display: flex;
     margin: 0 2% 5% 2%;
@@ -241,6 +229,26 @@ button {
 .layer4 {
     margin: 5% 2% 5% 2%;
 }
+
+/* I made it way harder here instead of using flexbox properly */
+
+.first-content {
+    padding-right: 15px;
+}
+
+.second-content {
+    padding-left: 15px;
+}
+
+.third-content {
+    padding-right: 15px;
+}
+
+.fourth-content {
+    padding-left: 15px;
+}
+
+/* -------------------- */
 
 .bottom-content {
     display: flex;
