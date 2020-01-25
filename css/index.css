@@ -185,44 +185,61 @@ header {
     background: dodgerblue;
 }
 
-.linebreak {
-    border: 1px dashed black;
-    margin: 5% 0 5% 0;
-}
-
 button {
     background: white;
     border: 2px solid black;
     border-radius: 8px;
-    /* padding: 10px 5px 10px 5px; */
     height: 35px;
     width: 125px;
     font-weight: 500;
     font-size: 15px;
+    margin: 2.5% 0 2.5% 0;
 
 }
 
 .layer1 {
+    margin-bottom: 3%;
+    border-bottom: 1px dashed black;
+}
 
+.about {
+    margin-bottom: 2.5%;
+    padding: 0 2% 0 2%;
 }
 
 .layer2 {
     display: flex;
-    justify-content: space-evenly;
-    margin: auto;
+    margin: 0 2% 5% 2%;
+}
+
+.layer2 h2 {
+    margin-top: 12px;
+    
 }
 
 .first-content {
     
 }
 
+.first-content h2 {
+    
+}
+
+.third-content {
+
+}
+
 .layer3{
     display: flex;
-    align-items: flex-end;
+    margin: 0 2% 5% 2%;
+}
+
+.layer3 h2 {
+    margin-top: 12px;
 }
 
 .layer4 {
-    margin: 5% 2.5% 5% 2.5%;
+    margin: 5% 2% 5% 2%;
 }
 
 .bottom-content {
