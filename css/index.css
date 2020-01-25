@@ -185,6 +185,46 @@ header {
     background: dodgerblue;
 }
 
+.linebreak {
+    border: 1px dashed black;
+    margin: 5% 0 5% 0;
+}
+
+button {
+    background: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    /* padding: 10px 5px 10px 5px; */
+    height: 35px;
+    width: 125px;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+.layer1 {
+
+}
+
+.layer2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.first-content {
+    
+}
+
+.layer3{
+    display: flex;
+    align-items: flex-end;
+}
+
+.layer4 {
+    margin: 5% 2.5% 5% 2.5%;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -198,6 +238,7 @@ header {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
 
 footer {
     width: 100%;
