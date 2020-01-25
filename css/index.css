@@ -210,7 +210,7 @@ button {
 .layer2 {
     display: flex;
     margin: 0 2% 5% 2%;
-    border-bottom: 1px dashed black;
+    
 }
 
 .layer2 h2 {
@@ -236,18 +236,22 @@ button {
 
 .first-content {
     padding-right: 15px;
+    border-bottom: 1px dashed black;
 }
 
 .second-content {
     padding-left: 15px;
+    border-bottom: 1px dashed black;
 }
 
 .third-content {
     padding-right: 15px;
+    border-bottom: 1px dashed black;
 }
 
 .fourth-content {
     padding-left: 15px;
+    border-bottom: 1px dashed black;
 }
 
 /* -------------------- */
